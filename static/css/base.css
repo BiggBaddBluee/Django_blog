@@ -47,3 +47,23 @@ header {
     color:red;
 }
 
+a.button {
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.post-entry.round {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+}
