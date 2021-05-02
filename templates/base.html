@@ -14,6 +14,8 @@
                 </div>
                 <div class="nav-right">
                     <a class="button" href="{% url 'post_new' %}">+ New Blog Post</a>
+                    <a class="button" href="{% url 'login' %}">Log In</a>
+                    <a class="button" href="{% url 'signup' %}">Sign Up</a>
                 </div>
             </header>
             {% if user.is_authenticated %}
@@ -21,8 +23,7 @@
                 <p><a class="button" href="{% url 'logout' %}"">Log out</a></p>
             {% else %}
                 <div class="nav-left"><p>You are not logged in.</p></div>
-                <a class="button" href="{% url 'login' %}">Log In</a>
-                <a class="button" href="{% url 'signup' %}">Sign Up</a>
+                
             {% endif %}
         {% block content %}
         {% endblock content %}

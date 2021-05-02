@@ -4,7 +4,7 @@ body {
 }
 
 header h1 a {
-    color: red;
+    color: blue;
     text-decoration: none;
 }
 
@@ -59,6 +59,8 @@ a.button {
     font-weight: bold;
     line-height: 25px;
     text-decoration: none;
+    margin: 5px;
+    font-size: 5px;
 }
 
 .post-entry.round {

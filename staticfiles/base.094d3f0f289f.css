@@ -4,7 +4,7 @@ body {
 }
 
 header h1 a {
-    color: red;
+    color: blue;
     text-decoration: none;
 }
 
@@ -24,12 +24,16 @@ header {
     padding-top: 2rem;
 }
 
+.post-entry {
+    margin-bottom: 2rem;
+}
+
 .post-entry h2 {
     margin: 0.5rem 0;
 }
 
 .post-entry h2 a,
-.post-entry h2 a:visited{
+.post-entry h2 a:visited {
     color: blue;
     text-decoration: none;
 }
@@ -43,3 +47,25 @@ header {
     color:red;
 }
 
+a.button {
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 5px;
+}
+
+.post-entry.round {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+}
