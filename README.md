@@ -8,8 +8,8 @@ A blog using the django framework, a beginner's attempt.
 ---
 
 ## Note
-Turn <addr> DEBUG = True </addr> after cloning in local
-Turn <addr> DEBUG = False </addr> before deploying into production
+Turn <addr>DEBUG = True</addr> after cloning in local
+Turn <addr>DEBUG = False</addr> before deploying into production
 
 Having a problem incorporating my css with it
 
